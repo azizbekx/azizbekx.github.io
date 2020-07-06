@@ -1,1 +1,1 @@
-# azizbekx.github.io
+[](/Home.html)
