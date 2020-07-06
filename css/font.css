@@ -1,0 +1,80 @@
+@font-face{
+    font-family: "DinPro-Light";
+    src: url(../fonts/DinPro/DINPro-Light_1.otf);
+ 
+ }
+ @font-face{
+     font-family: "DinPro-Italic";
+     src: url(../fonts/DinPro/DINPro-Italic_1.otf);
+  
+  }
+  @font-face{
+     font-family: "DinPro-ItalicBold";
+     src: url(../fonts/DinPro/DINPro-BoldItalic_1.otf);
+  
+  }
+ @font-face{
+     font-family: "Dinpro-Regular";
+     src: url(../fonts/DinPro/DINPro_1.otf)  format("truetype");
+  
+  }
+  @font-face{
+     font-family: "DinPro-Medium";
+     src: url(../fonts/DinPro/DINPro-Medium_1.otf)  format("truetype");
+  
+  }
+
+  @font-face{
+     font-family: "DinPro-ExtraBold";
+     src: url(../fonts/DinPro/DINPro-Bold_1.otf)  format("truetype");
+  
+  }
+
+  @font-face{
+     font-family: "History-Pro";
+     src: url(../fonts/HistoryPro/HistoryPro-Two.ttf)  format("truetype");
+  
+  }
+ 
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6{
+      font-family: "History-Pro", sans-serif !important;
+  }
+ 
+  strong,
+  b{
+      font-family: "DinPro-ExtraBold", sans-serif !important;
+  }
+ 
+  em,
+  i{
+      font-family: "DinPro-Italic",sans-serif;
+  }
+  a,
+  p,
+  body,
+  {
+      font-family: "DinPro-Regular",sans-serif !important;
+  }
+ 
+ .font-weight-bold {
+     font-family: "DinPro-ExtraBold", sans-serif !important;
+ }
+
+   
+ .font-weight-light {
+     font-family: "DinPro-Light", sans-serif !important;
+ }
+   
+ .font-weight-normal {
+     font-family: "DinPro-Regular", sans-serif !important;
+ }
+ .font-weight-medium{
+     font-family: "DinPro-Medium", sans-serif;
+ }
+ 
+ 

@@ -1,0 +1,98 @@
+.post-main {
+  width: 92%;
+  margin: 3rem auto 7rem auto;
+}
+.post-header {
+  padding: 1rem 4rem;
+}
+.post-title {
+  font-family: "DinPro-Medium", sans-serif;
+  font-size: 3rem;
+  color: #333;
+  font-weight: 350;
+}
+.post-avatar {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+}
+.post-avatar img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+.post-avatar p:nth-child(1) {
+  font-family: "DinPro-Medium", sans-serif;
+  font-size: 1.2rem;
+}
+.post-avatar p:nth-child(2) {
+  color: rgb(87, 86, 86);
+  font-size: 1rem;
+}
+.post-avatar p {
+  margin: 0;
+}
+
+@media (max-width: 769px) {
+  .post-main {
+    width: 100%;
+    margin: 1rem auto 2rem auto;
+  }
+  .post-header {
+    padding: 10px 2rem 5px 2rem;
+  }
+  .post-title {
+    font-size: 1.5rem;
+  }
+  .post-avatar {
+    margin-top: 1rem;
+  }
+  .post-avatar img {
+    width: 45px;
+    height: 45px;
+   
+  }
+  .post-avatar p:nth-child(1) {
+
+    font-size: 1rem;
+  }
+  .post-avatar p:nth-child(2) {
+    color: rgb(87, 86, 86);
+    font-size: 0.9rem;
+  }
+  .post-avatar p {
+    margin: 0;
+  }
+}
+@media (min-width: 769.1px) and (max-width: 992px) {
+    .post-main {
+        width: 100%;
+        margin: 20px auto 30px auto;
+      }
+      .post-header {
+        padding: 10px 7% 5px 7%;
+      }
+      .post-title {
+        font-size: 30px;
+      }
+      .post-avatar {
+        margin-top: 1rem;
+      }
+      .post-avatar img {
+        width: 50px;
+        height: 50px;
+       
+      }
+      .post-avatar p:nth-child(1) {
+            
+        font-size: 1rem;
+      }
+      .post-avatar p:nth-child(2) {
+       
+        font-size: 0.9rem;
+      }
+      .post-avatar p {
+        margin: 0;
+      }
+}

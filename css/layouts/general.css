@@ -1,0 +1,45 @@
+
+
+*{
+    box-sizing: border-box;
+}
+.row{
+   
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+body{
+    margin: 0;
+    font-family: "DinPro-Regular", sans-serif;
+    
+   
+}
+.border-bottom{
+    
+    padding-bottom: 1rem ;
+    border-bottom: 1px solid #7ed56f;
+    
+
+}
+.clear-link{
+    text-decoration: none;
+    color: black;
+}
+@media (max-width:769px){
+    body{
+        font-size: 0.9rem;
+    }
+    button{
+        font-size: 0.7rem;
+    }
+}
+@media (min-width: 769.1px) and (max-width:992px){
+    body{
+        font-size: 15px;
+    }
+    button{
+        font-size: 0.85rem;
+    }
+}

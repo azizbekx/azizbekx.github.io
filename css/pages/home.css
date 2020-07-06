@@ -1,0 +1,201 @@
+.section-form {
+  background-image: linear-gradient(
+      105deg,
+      rgba(255, 255, 255, 0.9) 0%,
+      rgba(255, 255, 255, 0.9) 50%,
+      transparent 50%
+    ),
+    url(/images/HD-Tech-Wallpapers-001.jpg);
+  padding-left: 60px;
+  height: 515px;
+  width: auto;
+  background-repeat: no-repeat;
+}
+
+.about-my-article {
+  font-family: "DinPro-Regular", sans-serif;
+  font-size: 1rem;
+  width: 100%;
+  margin: 50px auto;
+  padding: 0 70px;
+
+  display: grid;
+  grid-template-columns: 15% 25% 25% 25%;
+  grid-row: auto;
+  grid-gap: 50px;
+}
+.about-my-article h1 {
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #7ed56f;
+
+  font-size: 30px;
+  line-height: 3rem;
+}
+#main-blogs {
+  width: 100%;
+  margin: 100px auto;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-gap: 2rem;
+  padding: 0 70px;
+}
+#main-blogs h3 {
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #7ed56f;
+}
+#section-blogs {
+  display: grid;
+}
+
+.category {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: repeat(1ft, auto);
+}
+.category-h3 {
+  margin-top: 3rem;
+  border-bottom: 2px solid #7ed56f;
+}
+.category-button {
+  margin-top: 1rem;
+}
+
+@media (max-width: 769px) {
+  .section-form {
+    background-image: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.9) 0,
+        rgba(255, 255, 255, 0.9) 50%
+      ),
+      url(/images/HD-Tech-Wallpapers-001.jpg);
+    padding-left: 20px;
+    height: 320px;
+    width: 100%;
+  }
+ 
+  .about-my-article {
+    font-size: 0.9rem;
+    margin: 30px auto;
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-my-article h1 {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #7ed56f;
+    font-size: 20px;
+    line-height: 2rem;
+  }
+
+  .box-p-3,
+  .box-p-4 {
+    display: none;
+  }
+
+  #main-blogs {
+    width: 100%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-gap: 1rem;
+    padding: 0 30px;
+  }
+  #main-blogs h3 {
+    padding-bottom: 1.1rem;
+    border-bottom: 1px solid #7ed56f;
+  }
+
+
+  .category {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: repeat(1ft, auto);
+  }
+  .category-h3 {
+    margin-top: 1.5rem;
+    border-bottom: 2px solid #7ed56f;
+  }
+  .category-button {
+    overflow: hidden;
+    margin-top: 10px;
+  }
+}
+@media (min-width:570px) and (max-width: 769px) {
+  .card-sm-grid{
+    padding: 0 1rem ;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+  }
+}
+
+@media (min-width: 769.1px) and (max-width: 992px) {
+  .section-form {
+    background-image: linear-gradient(
+        105deg,
+        rgba(255, 255, 255, 0.9) 0,
+        rgba(255, 255, 255, 0.9) 70%,
+        transparent 30%
+      ),
+      url(/images/HD-Tech-Wallpapers-001.jpg);
+    padding-left: 40px;
+    height: 400px;
+    width: 100%;
+  }
+
+  .about-my-article {
+    font-size: 15px;
+    margin: 30px auto;
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-my-article h1 {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #7ed56f;
+    font-size: 20px;
+    line-height: 2rem;
+  }
+
+  .box-p-2 {
+    display: none;
+  }
+
+  #main-blogs {
+    width: 100%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-gap: 1rem;
+    padding: 0 30px;
+  }
+  #main-blogs h3 {
+    padding-bottom: 1.1rem;
+    border-bottom: 1px solid #7ed56f;
+  }
+  .card-sm-grid{
+    padding: 0 1rem ;
+    display: grid;
+    grid-template-columns: auto auto;
+   
+    grid-gap: 10px;
+  }
+
+  .category {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: repeat(1ft, auto);
+  }
+  .category-h3 {
+    margin-top: 1.5rem;
+    border-bottom: 2px solid #7ed56f;
+  }
+  .category-button {
+    overflow: hidden;
+    margin-top: 10px;
+  }
+}

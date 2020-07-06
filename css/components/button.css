@@ -1,0 +1,90 @@
+.btn {
+  font-family: "DinPro-Medium", sans-serif;
+  width: 150px;
+  height: 40px;
+  text-transform: uppercase;
+  border-radius: 20px;
+}
+
+.btn-in {
+  color: black;
+  border: 1px solid #7ed56f;
+  background-color: white;
+}
+.btn-in:hover {
+  background-color: #55c57a;
+  color: white;
+  border: none;
+}
+.btn-in:active,
+.btn-in:focus,
+.btn-up:active,
+.btn-up:focus {
+  outline: none;
+  box-shadow: 0 3px 5px rgba(54, 223, 49, 0.5);
+}
+.btn-up {
+  margin-left: 10px;
+  color: white;
+  background-color: #55c57a;
+  border: none;
+  box-shadow: 0 3px 5px rgba(54, 223, 49, 0.5);
+}
+.btn-up:hover {
+  background-color: #28b485;
+}
+
+.read-more-link {
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 5px;
+  text-transform: uppercase;
+  color: black;
+  text-decoration: none;
+  border: 2px solid #7ed56f;
+  transition: all 0.5s;
+}
+.read-more-link:hover {
+  background: linear-gradient(270deg, #7ed56f, #28b485);
+}
+@media (max-width: 769px) {
+
+  /*--- button font size 0.7rem--- */
+
+  .btn-up{
+    margin-left: 5px;
+  }
+
+  .read-more-link {
+    padding: 5px;
+    font-size: 0.7rem;
+    border: 1px solid #7ed56f;
+  }
+  .btn {
+    width: 70px;
+    height: 30px;
+    font-size: 0.7rem;
+
+    border-radius: 20px;
+  }
+}
+
+@media (min-width: 769.1px) and (max-width: 992px) {
+  .btn-up{
+    margin-left: 5px;
+  }
+
+  .read-more-link {
+    padding: 5px;
+    font-size: 0.85rem;
+    border: 1px solid #7ed56f;
+  }
+  .btn {
+    width: 100px;
+    height: 40px;
+    font-size: 0.85rem;
+
+    border-radius: 20px;
+  }
+}
+
